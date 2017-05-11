@@ -97,7 +97,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="single_feature single_feature_color_two">
 				<i class="fa fa-rocket"></i>
 				<h4>微视频</h4>
+				<video width="270px" height="190px" autobuffer="autobuffer" autoplay="autoplay" loop="loop" controls="controls">
+                    <source src='assets/video/demo.mpg' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                </video>
 				<p>微视频是指短则30秒，长则不超过20分钟的视频短片。微视频的内容涉及面广泛，视频形态多样，通常涵盖微电影、纪录短片、DV短片、视频剪辑短片、广告片段等。</p>
+
 			</div>
 		</div><!-- END COL -->
 		<div class="col-md-3 col-sm-3 col-xs-12 no-padding">

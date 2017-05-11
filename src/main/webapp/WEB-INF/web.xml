@@ -27,7 +27,7 @@
     </servlet-mapping>
   <servlet-mapping>
     <servlet-name>default</servlet-name>
-    <url-pattern>*.html</url-pattern>
+    <url-pattern>*.mpg</url-pattern>
   </servlet-mapping>
   <servlet>
     <servlet-name>ServiceServlet</servlet-name>
