@@ -36,14 +36,14 @@ For windows users, google `install git windows` may be a good idea.  You could t
 git --version
 
 ```
-to validate you installation. When git is ready, you could download the source very easy. Start you terminal and change directory to your work workspace.
+to validate your installation. When git is ready, you could download the source very easy. Start you terminal and change directory to your work workspace.
 
 ```
 git clone git@github.com:ahuazhu/juwei-web.git
 
 ```
 
-If you really reject to install ```git```, downloading the archived file directly and dis-archive it is a solution.
+If you really reject to install ```git```, downloading the archived file directly and unarchive it is a alternative solution(unrecommend, since you could not submit your modification about the project this way).
 
 ```
 curl -o juwei-web-master.zip https://codeload.github.com/ahuazhu/juwei-web/zip/master
@@ -68,7 +68,7 @@ More detail instructions about install, please read the [office guide][https://m
 
 ## Run with tomcat plugin
 
-When install maven success, you could try the project by tomcat-plugin
+When maven installed success, you could try the project by tomcat-plugin
 
 ```
 mvn tomact7:run
