@@ -40,7 +40,7 @@ git clone git@github.com:ahuazhu/juwei-web.git
 
 ```
 
-If you really reject to install ```git```, downloading the archived file directly and unarchive it is a alternative solution(unrecommend, since you could not submit your modification about the project this way).
+If you really reject to install `git`, downloading the archived file directly and unarchive it is a alternative solution(unrecommend, since you could not submit your modification about the project this way).
 
 ```
 curl -o juwei-web-master.zip https://codeload.github.com/ahuazhu/juwei-web/zip/master
@@ -76,7 +76,7 @@ and input the address `http://localhost:8080/`. The fantastic website will be sh
 
 ## Development
 If you want to improve the project or add new features, you should develop the project by your self. [IDEA](https://www.jetbrains.com/idea/)(recommend)
-or Eclipse are both supported. Read the official documents for detail.
+and Eclipse are both supported. Read the official documents for detail.
 
 ## Run in tomcat
 Finally, you should publish the website to product. Tomcat is a good choice to run as the container.
