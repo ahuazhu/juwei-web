@@ -79,7 +79,7 @@ If you want to improve the project or add new features, you should develop the p
 and Eclipse are both supported. Read the official documents for detail.
 
 ## Run in tomcat
-Finally, you should publish the website to product. Tomcat is a good choice to run as the container.
+Finally, you should publish the website to product. [Tomcat](http://tomcat.apache.org/download-70.cgi) is a good choice to run as the container.
 1. Setup the tomcat on the machine correctly.
 2. Build the project by `mvn clean install -Dmaven.test.skip=true`
 3. Copy `target/wechat-web-1.0-SNAPSHOT.war` to your tomcat webapps directory, rename the file if it's necessary.
