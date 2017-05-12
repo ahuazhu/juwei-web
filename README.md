@@ -60,17 +60,17 @@ Unzip it and move the directory to any place you like, and set the `PATH` enviro
 mvn -v
 ```
 
-More detail instructions about install, please read the [office guide](https://maven.apache.org/install.html#).
+More detail instructions about installation, please read the [official guide](https://maven.apache.org/install.html#).
 
 
 ## Run with tomcat plugin
 
-When maven installed success, you could try the project by tomcat-plugin
+When maven installed success, you could try to run the project with tomcat-plugin
 
 ```
 mvn tomact7:run
-
 ```
+
 If not errors occur, you could get the message like 'Starting ProtocolHandler ["http-bio-8080"]' . Start your web browser
 and input the address `http://localhost:8080/`. The fantastic website will be show for you.
 
